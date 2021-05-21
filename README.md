@@ -18,12 +18,12 @@ Download [conda](https://docs.anaconda.com/anaconda/install/) if you haven't alr
 conda env create -f environment.yml
 conda activate adversarial-defenses
 ```
-Now to set up the matlab engine, while working in the environment you just made, type (replacing `$matlabroot` appropriatly)
+Now to set up the matlab engine, while working in the environment you just made, type (replacing `$matlabroot` appropriately)
 ```
 cd $matlabroot/extern/engines/python
 python setup.py install
 ```
-where `$matlabroot` is your matlab root directory. For example, it could be similar to `/Applications/MATLAB2020_b.app`
+where `$matlabroot` is your matlab root directory.
 
 
 # Usage
